@@ -75,8 +75,7 @@ public class EmployeeController {
 	public static List<Employee> tempEmpList= new ArrayList<>();
 	
 	public TableView<Employee> showEmployeeList(){
-		
-		
+		System.out.println("Changes");
 		TableView<Employee> employeeView=new TableView<Employee>();
 		employeeData.clear();
 		TableColumn<Employee, Long> srNoCol= new TableColumn<Employee, Long>("Sr No.");
